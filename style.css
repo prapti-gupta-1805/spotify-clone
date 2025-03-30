@@ -67,9 +67,15 @@
 }
 
 .lib-option {
+    display: flex;
+    align-items: center;
     line-height: 2.5rem;
     opacity: 0.7;
     padding: 0.5rem 0.75rem;
+}
+
+.lib-option:hover {
+    opacity: 1;
 }
 
 .lib-option img {
